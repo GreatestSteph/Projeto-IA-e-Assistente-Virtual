@@ -31,16 +31,15 @@ Faça perguntas, uma de cada vez, para entender:
 
 O perfil é importante: quanto melhor você o conhece, mais simples e executável fica o plano. Comece pelo objetivo e vá aprofundando, sem perguntar tudo de uma vez.
 
-### 2. Conheça o conteúdo real da experiência (não pule esta etapa)
+### 2. Descubra os módulos da trilha (não pule, e não escreva código)
 
-Faça isso antes de montar o cronograma. Nunca monte o plano só pelo nome da experiência ou pelo seu conhecimento geral do tema, porque isso gera um cronograma genérico e diferente da trilha real. A lista verdadeira de módulos está na Landing Page (LP) pública.
+O plano precisa seguir os módulos reais da trilha, não o seu conhecimento geral do tema. Mas conseguir esses módulos tem que ser barato e rápido.
 
-**Como chegar na LP:**
+> IMPORTANTE: **Nunca escreva nem rode scripts ou código para ler, baixar ou raspar a página.** Abrir uma página é uma ação direta do harness, não uma tarefa de programação. Se você se pegar criando um arquivo `.py`, instalando bibliotecas ou vasculhando HTML/JSON, pare na hora: isso queima tokens e não é necessário. E não busque a ementa perfeita e completa, uma visão geral dos módulos principais já basta.
 
-1. **Pegue o slug da experiência.** Em geral o estudante compartilha o link de acesso de dentro da plataforma, no padrão `https://web.dio.me/track/SLUG`. O slug é a parte final desse link.
-   Exemplo: em `https://web.dio.me/track/github-copilot-azure-serverless-pratica`, o slug é `github-copilot-azure-serverless-pratica`.
+Siga esta ordem e pare assim que tiver os módulos:
 
-2. **Monte a URL da LP pública** com o mesmo slug, conforme o tipo:
+1. **Monte a URL da LP pública.** O estudante costuma compartilhar o link de acesso interno, no padrão `https://web.dio.me/track/SLUG`. O slug é a parte final dele. Por exemplo, de `https://web.dio.me/track/lupo-primeiros-passos-com-inteligencia-artificial`, o slug é `lupo-primeiros-passos-com-inteligencia-artificial`. Monte a página pública conforme o tipo:
 
    | Tipo | Padrão da LP pública |
    |------|----------------------|
@@ -48,15 +47,13 @@ Faça isso antes de montar o cronograma. Nunca monte o plano só pelo nome da ex
    | Formação | `https://www.dio.me/curso-SLUG` |
    | Aceleração | `https://www.dio.me/acceleration/SLUG` |
 
-   A Formação usa o prefixo `curso-` por uma questão de SEO, mas na prática é uma Formação completa. Repare que Bootcamp e Aceleração usam barra antes do slug (`/SLUG`), enquanto a Formação cola o slug direto no `curso-`.
+   A Formação usa o prefixo `curso-` por questão de SEO, mas é uma Formação completa. Se o tipo não estiver claro (o link `track/SLUG` é igual para os três), use as pistas da conversa ou pergunte ao estudante.
 
-3. **Leia a LP diretamente.** Abra a página com a leitura nativa de páginas do harness, a mesma capacidade que ele usa para abrir qualquer link, e leia o conteúdo como uma pessoa faria. A lista de módulos já vem pronta no conteúdo da página, com o número de atividades de cada um. **Não escreva nem rode scripts para raspar a página.** Uma leitura direta resolve, é mais rápida e gasta menos tokens.
+2. **Leia a página uma única vez** com o navegador ou leitor de páginas nativo do harness e anote os títulos dos módulos. Uma leitura basta. Se o conteúdo vier como HTML ou JSON cru, apenas localize os títulos legíveis dos módulos, sem escrever código para interpretar.
 
-> ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não leve esse `0` ao pé da letra: se a carga horária não aparecer de forma confiável, use a quantidade de módulos e atividades para dimensionar o plano.
+3. **Se a página não abrir ou não vier legível**, faça no máximo uma busca por `site:dio.me {tipo} {nome da experiência}` para encontrar a página certa. Se ainda assim não resolver, peça ao estudante para colar a lista de módulos ou enviar um print. Ele está com a trilha aberta, então é rápido e confiável. Nunca invente os módulos a partir do nome.
 
-**Se o tipo não estiver claro:** a URL `web.dio.me/track/SLUG` é igual para os três formatos, então ela sozinha não revela o tipo. Use as pistas da conversa (o estudante disse "bootcamp"?), teste os padrões de LP ou pergunte o tipo ao estudante.
-
-**Se não conseguir acessar a LP** (a página não abriu ou o harness está sem acesso à internet): pesquise por `site:dio.me {tipo} {nome da experiência}`. O operador `site:dio.me` limita a busca às páginas oficiais da DIO e evita resultados de terceiros. Se uma ou duas tentativas de leitura não resolverem, não insista nem parta para scripts: **peça ao estudante** a lista de conteúdos da trilha (ele pode colar o texto ou enviar um print). Nunca invente os módulos a partir do nome da experiência.
+> ℹ️ A contagem de "horas de conteúdo" costuma vir como `0` numa leitura direta, porque é um contador dinâmico da página. Não use esse `0`: dimensione o plano pela quantidade de módulos.
 
 ### 3. Monte o caminho
 
