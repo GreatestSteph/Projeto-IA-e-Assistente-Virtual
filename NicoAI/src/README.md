@@ -1,31 +1,38 @@
 # Código da Aplicação
 
-Esta pasta contém o código do seu agente financeiro.
+Esta pasta contém o código do agente financeiro chamado NicoAI
 
-## Estrutura Sugerida
+## Estrutura
 
 ```
+data/
+├── perfil_investidor.json          # Dados
+├── produtos_financeiros.json       # Dados
+├── transacoes.csv                  # Dados
+├── historico_atendimento.csv       # Dados
 src/
-├── app.py              # Aplicação principal (Streamlit/Gradio)
-├── agente.py           # Lógica do agente
-├── config.py           # Configurações (API keys, etc.)
-└── requirements.txt    # Dependências
+├── app.py              # Aplicação principal (Streamlit)
 ```
 
-## Exemplo de requirements.txt
+## Dependências
 
 ```
 streamlit
-openai
-python-dotenv
+ollama
+pandas
+requests
 ```
 
 ## Como Rodar
 
 ```bash
-# Instalar dependências
-pip install -r requirements.txt
+# Instalar Ollama
+ollama pull gpt-oss
+ollama serve
 
-# Rodar a aplicação
-streamlit run app.py
+# Instalar dependências
+pip install streamlit pandas requests
+
+# Rodar a aplicação NicoAI
+streamlit run src/app.py
 ```
