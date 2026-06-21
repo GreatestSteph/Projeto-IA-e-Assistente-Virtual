@@ -1,3 +1,15 @@
+# Minha Inteligência Artificial e Assistente Virtual
+###### Projeto criado para o desafio final da Dio.me, para a conclusão do bootcamp de Accenture, em Análise de Dados
+<br/>
+
+Bem-vindo! Neste projeto criei um agente personalizado capaz de - (escrevendo)
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
 # 🤖 DIO Agent
 
 > Seu mentor de Inteligência Artificial para aprender mais e melhor na [DIO](https://dio.me).
