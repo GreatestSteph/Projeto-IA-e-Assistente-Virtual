@@ -33,10 +33,11 @@ E ei! Esse sistema roda apenas localmente no navegador do seu computador ein!
 
 
 ## Como Rodar 🤔 ?
+1 - Primeiro faça o download desse projeto!
 
-Vá ao seu terminal de código e rode os seguintes passos:
+2 - Em seguida, abra a pasta do projeto NicoAI!
 
-Lembre-se de ter python e ollama instalados viu 🌟!
+3 - Logo abra o seu terminal dentro da pasta NicoAI e rode os seguintes passos:
 
 
 ```bash
@@ -50,6 +51,7 @@ pip install streamlit pandas requests
 # Rodar a aplicação NicoAI
 streamlit run src/app.py
 ```
+4 - Último e não menos importanteee! Lembre-se de ter python e ollama instalados viu 🌟!
 
 <br/>
 
