@@ -1,20 +1,20 @@
-# Assistente Financeiro NicoAI !
-###### Projeto criado para o desafio final da Dio.me, para a conclusão do bootcamp de Accenture, em Análise de Dados
+# Assistente Financeiro NicoAI 🌟
+Bem-vindo! Aqui você vai conhecer alguém que vai te guiar financeiramente, seu NicoAI! 
 <br/>
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/uclalytic/public-assets/main/nico_aventurafinanceira.png" width="900" alt="Nico Paisagem">
+  <img src="https://raw.githubusercontent.com/GreatestSteph/Projeto-IA-e-Assistente-Virtual/b846f39e7ab78d9c2dbf76682d30832856a349b7/nico_aventurafinanceira.png" width="900" alt="Nico Paisagem">
 </p>
 
-Bem-vindo! Aqui projetei um agente capaz de te educar financeiramente, NicoAI! 
+###### Projeto criado para o desafio final da Dio.me, para a conclusão do bootcamp de Accenture, em Análise de Dados
 <br/>
 <br/>
 
 
-<div align="left">
-    <p> NicoAI </p>
-    <img src="https://raw.githubusercontent.com/uclalytic/public-assets/main/nico_avatar.png" width="350" height="350" alt="Nico Icone">
-</div>
+<h1 style="display: flex; align-items: center; gap: 15px;">
+  NicoAI
+  <img src="URL_DO_SEU_ICONE_AQUI.png" width="50" height="50" alt="Nico Icone" style="border-radius: 50%;"> 
+</h1>
 
 O NicoAI é um agente de IA que veio para trazer uma luz para as finanças e guiar o cliente no meio do escuro! Ele acompanha você na sua jornada de estudos sobre o mercado financeiro, atuando como um tutor virtual personalizado. 💡🌆
 
