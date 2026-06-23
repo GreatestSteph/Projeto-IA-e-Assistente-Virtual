@@ -66,6 +66,6 @@ Caso você queira consultar a documentação, métricas e o projeto de software,
 
 Se ainda houver dúvidas de como acessar, eu disponibilizei um vídeo Pitch abaixo, mesclado com um rápido tutorial!
 
-[Link da Vídeo - Clique aqui ! ](https://www.youtube.com/linkvideovideo)
+[Link do Vídeo - Clique aqui ! ](https://www.youtube.com/linkvideovideo)
 
 
